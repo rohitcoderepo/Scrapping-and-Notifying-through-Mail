@@ -1,0 +1,17 @@
+Project : Scrap the website and check if any change and Notify ( SCN ) ; Scrap Check Notify
+
+1. Scrap the content which are required to be scrapped according to the requirements.
+
+2. Load the daily file in csv format 
+
+3. Check whether there is any change in the present file from previous file.
+
+4. Notify the changes using the AWS SES
+
+Platforms: AWS EC2, AWS SES
+
+Programming Language: Python3.6
+
+Flags:
+1. Created a flag to check if we able to access the webpage.
+2. Created a flag to notify if the file is downloaded
